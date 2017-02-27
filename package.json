@@ -1,0 +1,19 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "login nodejs y android test by Jose Sanchez",
+  "main": "index.js",
+  "author": "Jose Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.14.1",
+    "passport": "0.3.2",
+	"passport-local" : "1.0.0",
+	"body-parser" : "1.16.1",
+	"express-session" : "1.15.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: Ocurrio un error con el proyecto login\" && exit 1"
+  }
+}
